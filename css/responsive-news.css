@@ -1,4 +1,5 @@
 @media (max-width: 1281px) {
 	.news-pianduan{display: none;}
 	.newscontent-ul img{width: 20%;}
+	h3{font-size:18px;}
 }
