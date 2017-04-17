@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- 浏览器版本渲染选择 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- viewport视图 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta keywodrs content="洛阳,河洛,龙门石窟,白马寺,关林,栾川,龙门,隋唐,河南,洛阳师范">
+	<title>首页——奇境河洛</title>
+	<link rel="shortcut icon" href="../img/logo/logoi1.ico" type="image/x-icon"/>
+	<!-- Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css"	href="../css/bootstrap1.css">
+	<link rel="stylesheet" type="text/css"	href="../css/normalize.css">
+	<link rel="stylesheet" type="text/css"	href="../css/colreset.css">
+	<link rel="stylesheet" type="text/css" href="../css/lhtmleaf-demo.css">
+	<link rel="stylesheet" type="text/css"	href="../css/swiper-3.3.1.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/animate.min.css" />
+	<link rel="stylesheet" type="text/css"	href="../css/style32.css">
+	<link rel="stylesheet" type="text/css"	href="../css/responsive5.css">
+	<link rel="stylesheet" type="text/css" href="../css/lunbostyleo.css" />
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<div class="container-fluid">
+		<!-- 头部 -->
+		<header class="row" id="hearder">
+			<div class="col-sm-12 col-md-12" id="hearder-div">
+				<!-- 导航栏 -->	
+				<nav class="navbar navbar-default" role="navigation" id="nav-bar">
+					<!-- logo -->
+					<a class="navbar-brand" href="index.html">
+						<img class="img-responsive"  id="logo" src="../img/logo/logo01.ico">
+					</a>
+					<!-- 小屏幕导航栏 -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+							<span class="sr-only">切换导航</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<!-- 导航栏 -->
+					<div class="collapse navbar-collapse" id="example-navbar-collapse">
+						<ul class="nav navbar-nav">
+						    <li><a href="index.html" class="navlits current-page" style="color:#fff;background:#8B2323">首页</a></li>
+							<li><a href="scenery.html" class="navlits">著名景点</a></li>
+							<li><a href="folkways.html" class="navlits">地域风情</a></li>
+							<li><a href="news.html" class="navlits">洛游新闻</a></li>
+							<li><a href="aboutUs.html" class="navlits">关于我们</a></li>
+							<li class="fxiang-alt">
+								<a href="javascript:void(0)" class="dropdown-toggle navlits"data-toggle="dropdown">
+									分享
+									<b class="caret"></b>
+								</a>
+								<div class="bdsharebuttonbox dropdown-menu" id="fxiang">  
+									<a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>  
+									<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>  
+									<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>  
+									<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>  
+									<a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a> 
+									<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>  
+								</div>
+							</li>
+							
+						</ul>
+					</div>
+	        	</nav>
+	        	<!-- 轮播图 -->
+	        	<!-- @media (min-width: 769px)屏幕大于等于769px -->
+	        	<div class="main_banner">
+					<div class="main_banner_wrap">
+						<div class="main_banner_box" id="m_box">
+							<a href="javascript:void(0)" class="banner_btn js_pre">
+								<span class="banner_btn_arrow"><i></i></span>
+							</a>
+							<a href="javascript:void(0)" class="banner_btn btn_next js_next">
+								<span class="banner_btn_arrow"><i></i></span>
+							</a>
+							<ul id="lb-l">
+							</ul>
+							<!--火狐倒影图层-->
+							<p id="rflt"></p>
+							<!--火狐倒影图层-->
+						</div>
+						<!--序列号按钮-->
+						<div class="btn_list">
+							<span class="curr"></span><span></span><span></span><span></span><span></span>        
+						</div>
+					</div>
+				</div>
+				<!-- @media (max-width: 768px)屏幕小于等于768px -->
+				<div class="mobileph">
+					<div class="swiper-container">
+						<!-- 图片 -->
+						<ul class="swiper-wrapper"></ul>
+						<!-- 分页器 -->
+						<div class="swiper-pagination" id="fenyeqi"></div>
+						<!-- 导航按钮 -->
+						<div class="swiper-button-prev swiper-button-white"></div>
+    					<div class="swiper-button-next swiper-button-white"></div>
+					</div>
+				</div>			
+			</div>	
+		</header>
+		<!-- 内容 -->
+		<section class="row" id="content">
+			<div class="col-sm-12 col-md-12">
+				<!-- 我们的城市 -->
+				<div id="our-city" class="normalatl">
+					<h2>
+						<a href="aboutUs.html" class="alt-a-right">我们的城市</a>
+						<img src="../img/index/dibiao.png" alt="我们的城市" class="altimgright">
+					</h2>
+					<span class="atlbootom"></span>
+					<p class="atlshuoming">欢迎来到洛阳，奇境河洛（河之洛）将给您最优质的服务</p>
+					<ul >
+						<li>
+							<div class="yuan">
+								<a class="yuan-a0"></a>
+							</div>
+							<h4>千年帝都</h4>
+							<p>洛阳先后有东周、西汉、东汉、曹魏、西晋、北魏、隋朝、唐朝、后梁、后唐、后晋等共13个王朝在此建都或陪都近900年，是我国建都最早、朝代最多的都城。</p>
+						</li>
+						<li>
+							<div class="yuan yuan1">
+								<a class="yuan-a1"></a>
+							</div>
+							<h4>牡丹花城</h4>
+							<p>“唯有牡丹真国色，花开时节动京城”，洛阳牡丹花朵硕大，品种繁多，花色奇绝，有红、白、粉、黄、紫、蓝、绿、黑及复色9大色系、10种花型、1000多个品种。</p>
+						</li>
+						<li>
+							<div class="yuan yuan2">
+								<a class="yuan-a2"></a>
+							</div>
+							<h4>人文都市</h4>
+							<p>洛阳形胜，天下之中、千年帝都，牡丹花城、文明瑰宝，粲然大观、文化洛阳，华夏之根，传承历史，见证文明。</p>
+						</li>
+						<li>
+							<div class="yuan yuan3">
+								<a class="yuan-a3"></a>
+							</div>
+							<h4>文明起源</h4>
+							<p>洛阳有着5000多年文明史，是华夏文明和中华民族的主要发源地。</p>
+						</li>
+						<li class=".clear"></li>
+					</ul>
+				</div>
+				<!-- 我们的景点 -->
+				<div id="our-view" class="normalatl">
+					<h2>
+						<img src="../img/index/jingdian.png" alt="我们的景点" class="altimgleft">
+						<a href="scenery.html" class="alt-a-left">我们的景点</a>
+					</h2>
+					<span class="atlbootom-left"></span>
+					<p class="atlshuoming">我们为您准备了秀色可餐的风景，请尽情享用</p>
+					<ul>
+					
+					</ul>
+				</div>
+				<div class="clear"></div>
+				<!-- 我们Style—民俗与小吃-->
+				<div id="flokways" class="normalatl">
+					<div id="flokways-header">
+						<h2>
+							<a href="folkways.html" class="alt-a-right">民俗与小吃</a>
+							<img src="../img/index/minsu.png" alt="我们的城市" class="altimgright">
+						</h2>
+						<span class="atlbootom"></span>
+						<p class="atlshuoming">不单有风景哦，让我们来看看洛阳多彩的民俗风情吧</p>
+					</div>
+					<ul>
+						<li class="flokways-li1">
+							<div class="flokays-div1">
+								<img src="../img/index/niurt.jpg">
+								<div>
+									<span></span>
+								</div>
+							</div>
+							<div class="flokays-div2">
+								<h3>洛阳牛肉汤</h3>
+								<p>说起洛阳牛肉汤，不要说喝了，仅仅让你闻闻，就会谗得你馋涎欲滴，欲罢不能。</p>
+								<p>清晨来到汤馆，称上一元钱烙馍，再盛一碗五块钱的汤，烙馍，汤中一泡，汤中再放足了火样红的特制辣子，那勾人魂魄的汤香之气，诱惑得你禁不住闭上双眼。品上一小口，顿感浓香醇郁、无芡自粘、挂唇留齿、厚重无比，味道好极了。老喝家常常说：“清晨一碗洛阳汤，给个神仙都不当。</p>
+							</div>
+						</li>
+						<li class="flokways-li2">
+							<div class="flokays-div3">
+								<img src="../img/index/dukng.jpg">
+								<div>
+									<span></span>
+								</div>
+							</div>
+							<div class="flokays-div4">
+								<h3>酒祖杜康</h3>
+								<p>历史悠久，三国时的曹操就有"何以解忧，唯有杜康"的名句。</p>
+								<p>相传杜康是中国用粮食酿酒的创始人，杜康当年酿酒的遗址在汝阳蔡店乡杜康村。自1987年开始，洛阳每年举办"中国杜康酒节"。每年的正月二十一和八月初一都是"酒祖日"，当地会举办大型祭祀活动。</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- 洛游讯息 -->
+				<div id="news" class="normalatl">
+					<h2>
+						<img src="../img/index/new.png" alt="洛游新闻" class="altimgleft">
+						<a href="news.html" class="alt-a-left">洛游新闻</a>
+					</h2>
+					<span class="atlbootom-left"></span>
+					<p class="atlshuoming">想了解最新的洛阳旅游信息与优惠活动吗？那快来看看吧！</p>
+					<div class="news-divalt">
+						<div class="news-beijing"></div>
+						<div class="news-div1">
+							<video width=100%; controls>
+								<source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+								<source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
+								<source src="http://vjs.zencdn.net/v/oceans.ogv" type="video/ogg"> 
+								您的浏览器不支持视频
+							</video>
+						</div>
+						<div class="news-div2">
+							<h3>
+								<span>洛旅新闻</span>
+								<span class="newsE">Travel News of LuoYang</span>
+							</h3>
+							<ul>
+								<li id="newli0">
+									<span class="newsflt newsflt-span1">新&nbsp闻</span>
+									<a class="newsflt newsflta">
+										<span class="newsflt-aspan1"></span>
+										<span class="newsflt-aspan2"></span>
+									</a>
+								</li>
+								<li id="newli1">
+									<span class="newsflt newsflt-span1">新&nbsp闻</span>
+									<a class="newsflt newsflta">
+										<span class="newsflt-aspan1"></span>
+										<span class="newsflt-aspan2"></span>
+									</a>
+								</li>
+								<li id="newli2">
+									<span class="newsflt newsflt-span1">新&nbsp闻</span>
+									<a class="newsflt newsflta">
+										<span class="newsflt-aspan1"></span>
+										<span class="newsflt-aspan2"></span>
+									</a>
+								</li>
+								<li id="newli3">
+									<span class="newsflt newsflt-span1">新&nbsp闻</span>
+									<a class="newsflt newsflta">
+										<span class="newsflt-aspan1"></span>
+										<span class="newsflt-aspan2"></span>
+									</a>
+								</li>
+								<li id="newli4">
+									<span class="newsflt newsflt-span1">新&nbsp闻</span>
+									<a class="newsflt newsflta">
+										<span class="newsflt-aspan1"></span>
+										<span class="newsflt-aspan2"></span>
+									</a>
+								</li>
+								<li id="newli5">
+									<span class="newsflt newsflt-span1">新&nbsp闻</span>
+									<a class="newsflt newsflta">
+										<span class="newsflt-aspan1"></span>
+										<span class="newsflt-aspan2"></span>
+									</a>
+								</li>
+								<li id="newli6">
+									<span class="newsflt newsflt-span1">新&nbsp闻</span>
+									<a class="newsflt newsflta">
+										<span class="newsflt-aspan1"></span>
+										<span class="newsflt-aspan2"></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- 关于我们 -->
+				<div id="aboutus" class="normalatl">
+					<h2>
+						<a href="aboutUs.html" class="alt-a-right">关于我们</a>
+						<img src="../img/index/we.png" alt="我们的城市" class="altimgright">
+					</h2>
+					<span class="atlbootom"></span>
+					<p class="atlshuoming">了解了上面怡人的景色和经典的小吃习俗，再告诉一些关于我们的事情吧</p>
+					<div id="aboutus-div1">
+						<img src="../img/index/guanyu.png" alt="关于我们" title="关于我们">
+						<p>洛阳是华夏文明和炎黄子孙的主要发源地之一，是东汉、曹魏、西晋、北魏及隋唐时期建都的地方，隋唐大运河的中心枢纽。牡丹因洛阳而闻名于世，被誉为“千年帝都，牡丹花城”.</p>
+					</div>
+					<ul>
+						<li>
+							<a href="">我们是谁</a>
+						</li>
+						<li>
+							<a href="">我们提供怎样的服务</a>
+						</li>
+						<li>
+							<a href="">如何联系我们</a>
+						</li>
+					</ul>
+				</div>
+			</div>		
+		</section>
+	</div>
+	<!-- 尾部 -->
+	<footer id="footerbj">
+		<a href="#" id="footera">
+			<img src="../img/logo/logo01.ico" alt="奇境河洛logo" title="奇境河洛">
+		</a>
+		<div id="foot-div1">
+			<img src="../img/logo/index.png" alt="">
+			<div>
+				<ul>
+					<li>
+						<a href="aboutUs.html">关于我们</a>
+					</li>
+					<li>
+						<a href="news.html">洛游新闻</a>
+					</li>
+					<li>
+						<a href="folkways.html">地域风情</a>
+					</li>
+					<li>
+						<a href="scenery.html">著名景点</a>
+					</li>
+				</ul>
+				<p class="footerp1">
+					<span>Copyright © 2009 All Rights Reserved</span>
+					<a href="javascript:void(0)" id="beian">京ICP备000000</a>
+				</p>
+				<p class="footerp2">奇境河洛 000-0000-000 洛阳</p>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js" ></script>
+	<script type="text/javascript" src="../js/swiper.animate1.0.2.min.js" ></script>
+	<script type="text/javascript" src="../js/swiper-3.3.1.min.js" ></script>
+	<script type="text/javascript" src="../js/fenxiang.js" ></script>
+	<script type="text/javascript" src="../js/index016.js"></script>
+	<script type="text/javascript" src="../js/ort.js"></script>
+</body>
+</html>

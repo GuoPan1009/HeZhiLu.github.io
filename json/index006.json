@@ -1,0 +1,14 @@
+{
+	"heard":[
+		{"lunbourl":["scenery detailed1.html","guohuayuan.html","baimasi.html","xunyicao.html","zhiwuyuan.html"]},
+		{"lunboimg":["../img/index/longmen.jpg","../img/index/mudan.jpg","../img/index/baimasi.jpg","../img/index/xunyicao.jpg","../img/index/styzzwy.jpg"]},
+		{"lunboat":["龙门石窟","洛阳牡丹","白马寺","洛阳薰衣草庄园","隋唐遗址植物园"]},
+		{"lunbop":["世界瑰宝 千年龙门","娇艳欲滴 国花牡丹","古都八景 东汉白马","唯美浪漫 薰衣草庄园","万千植物 隋唐遗址"]}
+	],
+	"ourview":[
+		{"ourviewurl":["mingtang.html","lijingmen.html","scenery detailed1.html","haiyangguan.html","wangchenggongyuan.html","xunyicao.html"]},
+		{"ourviewimg":["../img/index/mt.jpg","../img/index/lijingmen.jpg","../img/index/long1.jpg","../img/index/hyg.jpg","../img/index/wcgy.jpg","../img/index/xyc2.jpg"]},
+		{"ourviewat":["洛阳明堂","洛阳丽景门","龙门石窟","海洋馆","王城公园","洛阳薰衣草庄园"]},
+		{"ourviewp":["明堂，亦称天宫，是隋唐洛阳城中轴建筑群上著名的“七天建筑”中最高大的两个建筑之一，为武则天时期洛阳太初宫的外朝正衙主殿。","原名丽京门，于09年3月10日正式更名为丽景门，是一座重现古都洛阳风貌的城楼，被评为洛阳市新八大景有“不到丽景门，枉来洛阳城”的美誉","窟龛2345个，造像10万余尊，碑刻题记2800余品。其中“龙门二十品”是书法魏碑精华，褚遂良所书的“伊阙佛龛之碑”则是初唐楷书艺术的典范。","毗邻世界文化遗产龙门石窟，是国内最大的海洋博物馆之一","图为丹阁迎宾沉香楼，是王城公园主要景观之一，此外王城公园还有河图洛书碑、乐台钟声韶乐台等著名景观","“龙门山下的普罗旺斯，伊水之畔的玫瑰花园”"]}
+	]
+}

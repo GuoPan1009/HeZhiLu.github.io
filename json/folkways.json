@@ -1,0 +1,6 @@
+{
+	"food":[
+		{"foodimg":["../img/index/shuixi.jpg","../img/index/niuroutan.jpg","../img/index/yeshi.jpg"]},
+		{"foodat":["洛阳水席","牛肉汤","老城夜市"]},
+	]
+}

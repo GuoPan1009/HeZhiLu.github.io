@@ -1,0 +1,4 @@
+@media (max-width: 768px) {
+	.scenery-p1-span2,.scenery-p1-span4{display: none;}
+	.scenery-p1-span1,.scenery-p1-span3{font-size: 0.2rem}
+}
