@@ -81,7 +81,7 @@ em{font-style:normal;}
 		left:0px; top:21.43%; opacity:0; background:#333d46;
 }
 .main_banner li#imgCard3{/*初始在背后，透明度为0*/
-		width:38.14%; height:64.295; z-index:1;
+		width:38.14%; height:64.295%; z-index:1;
 		left:0px; top:21.43%; opacity:0; background:#333d46;
 }
 .main_banner li#imgCard4{
