@@ -7,11 +7,9 @@
 	#example-navbar-collapse .navlits{padding-top: 5px;padding-bottom: 5px;}
 	.main_banner{display: none;}
 	.mobileph{display: block;}
-	
-	/*内容*/
-	
+
 	/*尾页*/
-	#footera img{display: none;}
+	#footera{display: none;}
 	#foot-div1 img{display: none;}
 	#foot-div1{float: none;width: 100%;}
 	#foot-div1 ul{width: 100%;text-align: center;}
