@@ -26,7 +26,7 @@
 	#aboutus ul li{float: left;margin:2% 0%;}
 	#aboutus ul li a{background: #600;border-radius: 20%;padding:2% 0%;}
 	/*尾页*/
-	#footera{display: none;}
+	#footerbj #footera{display: none;}
 	#foot-div1 img{display: none;}
 	#foot-div1{float: none;width: 100%;}
 	#foot-div1 div{width: 100%;height: 100%;float: none;margin-right: 0px;}
