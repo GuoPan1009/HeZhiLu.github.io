@@ -9,7 +9,7 @@
 	.mobileph{display: block;}
 
 	/*尾页*/
-	#footera{display: none;}
+	#footerbj #footera{display: none;}
 	#foot-div1 img{display: none;}
 	#foot-div1{float: none;width: 100%;}
 	#foot-div1 ul{width: 100%;text-align: center;}
