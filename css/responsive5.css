@@ -28,7 +28,7 @@
 	/*尾页*/
 	#footerbj #footera{display: none;}
 	#foot-div1 img{display: none;}
-	#foot-div1{float: none;width: 100%;}
+	#foot-div1{float: none;width: 100%;margin-top:0;padding-top:2%;}
 	#foot-div1 div{width: 100%;height: 100%;float: none;margin-right: 0px;}
 	#beian{float: none;}
 	#foot-div1 div .footerp1{width: 100%;text-align: center;}
