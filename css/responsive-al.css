@@ -11,7 +11,7 @@
 	/*尾页*/
 	#footerbj #footera{display: none;}
 	#foot-div1 img{display: none;}
-	#foot-div1{float: none;width: 100%;}
+	#foot-div1{float: none;width: 100%;margin-top:0;padding-top:2%;}
 	#foot-div1 ul{width: 100%;text-align: center;}
 	#foot-div1 div li{float: none;display: inline-block;}
 	#foot-div1 div li:nth-child(2){border:none;padding-right:0px;margin-right: 0px;}
